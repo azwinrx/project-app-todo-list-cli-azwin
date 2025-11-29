@@ -20,7 +20,7 @@ var addCmd = &cobra.Command{
 			fmt.Println("Error menambahkan task:", err)
 			return
 		}
-		fmt.Println("✓ Task berhasil ditambahkan!")
+		fmt.Println("Task berhasil ditambahkan!")
 	},
 }
 

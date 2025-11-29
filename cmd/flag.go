@@ -82,7 +82,7 @@ var incompleteCmd = &cobra.Command{
 			fmt.Println("Error menandai task belum selesai:", err)
 			return
 		}
-		fmt.Println("✓ Task berhasil ditandai belum selesai!")
+		fmt.Println("Task berhasil ditandai belum selesai!")
 	},
 }
 
