@@ -1,5 +1,10 @@
 package main
 
-import "fmt"
-import "github.com/spf13/cobra"
+import (
+	"project-app-todo-list-cli-azwin/cmd"
+)
+
+func main() {
+	cmd.Execute()
+}
 

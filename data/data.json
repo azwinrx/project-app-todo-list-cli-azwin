@@ -1,1 +1,20 @@
-{}
+[
+  {
+    "id": 1,
+    "task": "Belajar Golang",
+    "status": true,
+    "created_at": "2025-11-29T13:40:52.6751141+07:00"
+  },
+  {
+    "id": 2,
+    "task": "Selesaikan project TODO CLI",
+    "status": false,
+    "created_at": "2025-11-29T13:41:01.8958454+07:00"
+  },
+  {
+    "id": 3,
+    "task": "Persiapan Presentasi",
+    "status": false,
+    "created_at": "2025-11-29T13:46:38.5493522+07:00"
+  }
+]

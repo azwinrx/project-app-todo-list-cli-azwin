@@ -7,10 +7,13 @@ import (
 )
 
 var listCmd = &cobra.Command{
-	Use: "list",
-	Short: "show all to-do items",
+	Use:   "list",
+	Short: "Menampilkan semua task",
 	Run: func(cmd *cobra.Command, args []string) {
-		service.DisplayTodoList()
+		err := todoService.DisplayTasks()
+		if err != nil {
+			fmt.Println("Error menampilkan task:", err)
+		}
 	},
 }
 
