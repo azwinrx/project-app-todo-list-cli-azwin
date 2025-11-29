@@ -2,6 +2,10 @@
 
 Aplikasi To-do List sederhana berbasis Command Line Interface (CLI) menggunakan Golang dan Cobra.
 
+## Video
+
+Link Youtube Video : https://youtu.be/ruemF5zIS5E
+
 ## Struktur Project
 
 ```
