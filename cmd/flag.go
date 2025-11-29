@@ -28,7 +28,7 @@ var updateCmd = &cobra.Command{
 			fmt.Println("Error mengupdate task:", err)
 			return
 		}
-		fmt.Println("✓ Task berhasil diupdate!")
+		fmt.Println("Task berhasil diupdate!")
 	},
 }
 
@@ -46,7 +46,7 @@ var deleteCmd = &cobra.Command{
 			fmt.Println("Error menghapus task:", err)
 			return
 		}
-		fmt.Println("✓ Task berhasil dihapus!")
+		fmt.Println("Task berhasil dihapus!")
 	},
 }
 
@@ -64,7 +64,7 @@ var completeCmd = &cobra.Command{
 			fmt.Println("Error menandai task selesai:", err)
 			return
 		}
-		fmt.Println("✓ Task berhasil ditandai selesai!")
+		fmt.Println("Task berhasil ditandai selesai!")
 	},
 }
 
